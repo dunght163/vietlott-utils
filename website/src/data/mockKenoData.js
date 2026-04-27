@@ -3,7 +3,7 @@ function generateDraws() {
   const baseId = 278001;
   const today = new Date();
 
-  for (let i = 0; i < 30; i++) {
+  for (let i = 0; i < 40; i++) {
     const numbers = [];
     const used = new Set();
     while (numbers.length < 20) {

@@ -7,7 +7,7 @@
   background: #fff7d5;
   padding: 10px 15px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   border-radius: 5px 5px 0 0;
 }
@@ -33,9 +33,15 @@
 /* Search Form */
 .keno-search {
   display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12px;
+}
+
+.keno-search-row {
+  display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
 }
 
 .keno-search label {
@@ -44,6 +50,7 @@
   gap: 4px;
   font-weight: bold;
   color: #333;
+  white-space: nowrap;
 }
 
 .keno-search input {
@@ -67,32 +74,86 @@
   background: #f0b030;
 }
 
+/* Draw Dropdown */
+.draw-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.draw-dropdown-input {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.draw-dropdown-input input {
+  width: 110px;
+  padding: 4px 22px 4px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.draw-dropdown-clear {
+  position: absolute;
+  right: 3px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #999;
+  padding: 0 3px;
+  line-height: 1;
+}
+
+.draw-dropdown-clear:hover {
+  color: #333;
+}
+
+.draw-dropdown-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 100;
+  width: 130px;
+  max-height: 200px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 2px 0 0;
+  padding: 0;
+  list-style: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.draw-dropdown-list li {
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.draw-dropdown-list li:hover {
+  background: #e8f4ff;
+}
+
+.draw-dropdown-list li.selected {
+  background: #d0ebff;
+  font-weight: bold;
+}
+
+.draw-dropdown-list li.no-match {
+  color: #999;
+  cursor: default;
+  font-style: italic;
+}
+
 /* Results Table */
 .keno-table {
   background: #a44900;
   padding: 5px 10px;
   border-radius: 0 0 5px 5px;
 }
-
-.keno-col-headers {
-  display: flex;
-  gap: 5px;
-  margin-bottom: 5px;
-}
-
-.col-header {
-  background: #fff;
-  border: 2px solid #a44900;
-  border-radius: 10px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 12px;
-  padding: 5px 0;
-}
-
-.col-ky { width: 80px; flex-shrink: 0; }
-.col-time { width: 80px; flex-shrink: 0; }
-.col-result { flex: 1; }
 
 /* Result Rows */
 .keno-row {
@@ -112,26 +173,31 @@
   background: #b4f2ff;
 }
 
-.keno-col-ky {
-  width: 80px;
+/* Left Info Panel */
+.keno-col-info {
+  width: 190px;
   flex-shrink: 0;
-  text-align: center;
-  padding: 8px 4px;
+  padding: 8px 10px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 4px;
 }
 
-.ky-number {
+.info-draw {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 14px;
 }
 
-.ky-badges {
+.info-datetime {
+  font-size: 12px;
+  color: #555;
+}
+
+.info-badges {
   display: flex;
-  flex-direction: column;
-  gap: 2px;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-top: 2px;
 }
 
 .icKeno {
@@ -151,24 +217,12 @@
 .icBe { background: #faa21e; }
 .icHoaLB { background: #00ad05; }
 
-.keno-col-time {
-  width: 80px;
-  flex-shrink: 0;
-  text-align: center;
-  padding: 8px 4px;
-  font-weight: bold;
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
+/* Right Numbers Panel */
 .keno-col-numbers {
   flex: 1;
   padding: 8px;
   display: flex;
-  flex-direction: column;
-  gap: 6px;
+  align-items: center;
 }
 
 .numbers-grid {
@@ -195,36 +249,6 @@
   background: #a44900;
   color: #fff;
 }
-
-/* Stat Badges */
-.stat-badges {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.group-tx {
-  display: flex;
-  gap: 3px;
-}
-
-.btn_tx {
-  flex: 1;
-  text-align: center;
-  padding: 2px 4px;
-  border-radius: 5px;
-  background: #e6e6e6;
-  font-size: 11px;
-  font-weight: bold;
-  color: #333;
-}
-
-.tx_chan { background: #1967b2; color: #fff; }
-.tx_le { background: #36b3e5; color: #fff; }
-.tx_lon { background: #f26531; color: #fff; }
-.tx_be { background: #faa21e; color: #fff; }
-.tx_hoacl { background: #98026c; color: #fff; }
-.tx_hoalb { background: #00ad05; color: #fff; }
 
 /* Empty State */
 .keno-empty {
