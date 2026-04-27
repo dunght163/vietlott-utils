@@ -24,7 +24,18 @@
       "Bash(sed -i 's|url\\(https://connect.facebook.net/rsrc.php/v4/y9/r/jKEcVPZFk-2.gif\\)|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/facebook/jKEcVPZFk-2.gif\\)|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')",
       "Bash(sed -i 's|url\\(https://connect.facebook.net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif\\)|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/facebook/3rhSv5V8j3o.gif\\)|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')",
       "Bash(sed -i 's|url\\(https://connect.facebook.net/rsrc.php/v4/yd/r/Cou7n-nqK52.gif\\)|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/facebook/Cou7n-nqK52.gif\\)|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')",
-      "Bash(sed -i 's|url\\(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png\\)|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/facebook/IE9JII6Z1Ys.png\\)|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')"
+      "Bash(sed -i 's|url\\(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png\\)|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/facebook/IE9JII6Z1Ys.png\\)|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')",
+      "Bash(rm -rf src)",
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(rm -f src/App.css src/index.css src/App.jsx src/main.jsx src/assets/react.svg)",
+      "Bash(rm -rf src/assets)",
+      "Bash(mkdir -p src/components/Header src/components/KenoResults src/components/Footer src/data src/styles public/images)",
+      "Bash(npx vite *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(pkill -f \"vite --port 3000\")",
+      "Bash(curl -s http://localhost:3002)",
+      "Bash(npm run *)"
     ]
   }
 }
