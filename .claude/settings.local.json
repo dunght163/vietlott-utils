@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -v --connect-timeout 10 --max-time 15 \"https://file.minhchinh.com/images/ball-bingo.png\" -o /dev/null)",
+      "Bash(curl -skL --connect-timeout 10 --max-time 15 \"https://file.minhchinh.com/images/ball-bingo.png\" -o \"/tmp/test_ball.png\")",
+      "Read(//tmp/**)",
+      "Bash(curl -skL --connect-timeout 10 --max-time 30 -o '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/images/ball-bingo.png' https://file.minhchinh.com/images/ball-bingo.png)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(curl -skL --connect-timeout 10 --max-time 30 -o \"/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/test_dl.png\" \"https://file.minhchinh.com/images/ball-bingo.png\")",
+      "Bash(xargs -P 8 -I {} bash -c 'curl -skL --connect-timeout 10 --max-time 30 -o \"/tmp/mc_dl/{}\" \"https://file.minhchinh.com/{}\" && echo \"OK: {}\" || echo \"FAIL: {}\"')",
+      "Bash(curl -skL --connect-timeout 10 --max-time 30 -o /tmp/mc_dl/__TRACKED_VAR__ https://www.minhchinh.com/__TRACKED_VAR__)",
+      "Bash(curl -skL --connect-timeout 10 --max-time 30 -o /tmp/mc_dl/webfonts/__TRACKED_VAR__ https://use.fontawesome.com/releases/v5.0.6/webfonts/__TRACKED_VAR__)",
+      "Bash(sed -i 's|url\\(https://file\\\\.minhchinh\\\\.com/|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')",
+      "Bash(sed -i 's|url\\(https://www\\\\.minhchinh\\\\.com/upload/images/|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/upload/images/|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')",
+      "Bash(sed -i 's|url\\(https://file\\\\.minhchinh\\\\.com/|url\\(cdn/|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/template.css')",
+      "Bash(sed -i 's|url\\('\\\\''https://file\\\\.minhchinh\\\\.com/|url\\('\\\\''cdn/|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/template.css')",
+      "Bash(curl -skL --connect-timeout 10 --max-time 30 -o /tmp/mc_dl/template/minhchinh/images/__TRACKED_VAR__ https://file.minhchinh.com/template/minhchinh/images/__TRACKED_VAR__)",
+      "Bash(curl -skL --connect-timeout 10 --max-time 15 -o \"/tmp/mc_dl/fb1.png\" \"https://connect.facebook.net/rsrc.php/v4/y2/r/onuUJj0tCqE.png\")",
+      "Bash(curl -skL --connect-timeout 10 --max-time 15 -o \"/tmp/mc_dl/fb2.gif\" \"https://connect.facebook.net/rsrc.php/v4/y9/r/jKEcVPZFk-2.gif\")",
+      "Bash(curl -skL --connect-timeout 10 --max-time 15 -o \"/tmp/mc_dl/fb3.gif\" \"https://connect.facebook.net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif\")",
+      "Bash(curl -skL --connect-timeout 10 --max-time 15 -o \"/tmp/mc_dl/fb4.gif\" \"https://connect.facebook.net/rsrc.php/v4/yd/r/Cou7n-nqK52.gif\")",
+      "Bash(curl -skL --connect-timeout 10 --max-time 15 -o \"/tmp/mc_dl/fb5.png\" \"https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png\")",
+      "Bash(sed -i 's|url\\(https://connect.facebook.net/rsrc.php/v4/y2/r/onuUJj0tCqE.png\\)|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/facebook/onuUJj0tCqE.png\\)|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')",
+      "Bash(sed -i 's|url\\(https://connect.facebook.net/rsrc.php/v4/y9/r/jKEcVPZFk-2.gif\\)|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/facebook/jKEcVPZFk-2.gif\\)|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')",
+      "Bash(sed -i 's|url\\(https://connect.facebook.net/rsrc.php/v4/ya/r/3rhSv5V8j3o.gif\\)|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/facebook/3rhSv5V8j3o.gif\\)|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')",
+      "Bash(sed -i 's|url\\(https://connect.facebook.net/rsrc.php/v4/yd/r/Cou7n-nqK52.gif\\)|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/facebook/Cou7n-nqK52.gif\\)|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')",
+      "Bash(sed -i 's|url\\(https://connect.facebook.net/rsrc.php/v4/yq/r/IE9JII6Z1Ys.png\\)|url\\(./Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno_files/cdn/facebook/IE9JII6Z1Ys.png\\)|g' '/c/DATA/workspace/dungha/Vietlott-Utils-Web/minhchinh.com/Xổ số điện toán KENO - Xổ Số Minh Chính - Kết quả Keno.html')"
+    ]
+  }
+}

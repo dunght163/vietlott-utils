@@ -178,22 +178,22 @@ body .ui-tooltip { border-width: 2px }
 .ui-widget .ui-widget { font-size: 1em }
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Segoe UI, Arial, sans-serif; font-size: 1em }
 .ui-widget.ui-widget-content { border: 1px solid #d19405 }
-.ui-widget-content { border: 1px solid #8e846b; background: #feeebd url("https://file.minhchinh.com/template/minhchinh/images/ui-bg_highlight-soft_100_feeebd_1x100.png") 50% top repeat-x; color: #383838 }
+.ui-widget-content { border: 1px solid #8e846b; background: #feeebd url("cdn/template/minhchinh/images/ui-bg_highlight-soft_100_feeebd_1x100.png") 50% top repeat-x; color: #383838 }
 .ui-widget-content a { color: #383838 }
-.ui-widget-header { border: 1px solid #494437; background: #817865 url("https://file.minhchinh.com/template/minhchinh/images/ui-bg_gloss-wave_45_817865_500x100.png") 50% 50% repeat-x; color: #fff; font-weight: bold }
+.ui-widget-header { border: 1px solid #494437; background: #817865 url("cdn/template/minhchinh/images/ui-bg_gloss-wave_45_817865_500x100.png") 50% 50% repeat-x; color: #fff; font-weight: bold }
 .ui-widget-header a { color: #fff }
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active { border: 1px solid #d19405; background: #fece2f url("https://file.minhchinh.com/template/minhchinh/images/ui-bg_gloss-wave_60_fece2f_500x100.png") 50% 50% repeat-x; font-weight: bold; color: #4c3000 }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active { border: 1px solid #d19405; background: #fece2f url("cdn/template/minhchinh/images/ui-bg_gloss-wave_60_fece2f_500x100.png") 50% 50% repeat-x; font-weight: bold; color: #4c3000 }
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button { color: #4c3000; text-decoration: none }
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus { border: 1px solid #a45b13; background: #ffdd57 url("https://file.minhchinh.com/template/minhchinh/images/ui-bg_gloss-wave_70_ffdd57_500x100.png") 50% 50% repeat-x; font-weight: bold; color: #381f00 }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus { border: 1px solid #a45b13; background: #ffdd57 url("cdn/template/minhchinh/images/ui-bg_gloss-wave_70_ffdd57_500x100.png") 50% 50% repeat-x; font-weight: bold; color: #381f00 }
 .ui-state-hover a, .ui-state-hover a:hover, .ui-state-hover a:link, .ui-state-hover a:visited, .ui-state-focus a, .ui-state-focus a:hover, .ui-state-focus a:link, .ui-state-focus a:visited, a.ui-button:hover, a.ui-button:focus { color: #381f00; text-decoration: none }
 .ui-visual-focus { box-shadow: 0 0 3px 1px rgb(94,158,214) }
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover { border: 1px solid #655e4e; background: #fff url("https://file.minhchinh.com/template/minhchinh/images/ui-bg_inset-soft_30_ffffff_1x100.png") 50% 50% repeat-x; font-weight: bold; color: #0074c7 }
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover { border: 1px solid #655e4e; background: #fff url("cdn/template/minhchinh/images/ui-bg_inset-soft_30_ffffff_1x100.png") 50% 50% repeat-x; font-weight: bold; color: #0074c7 }
 .ui-icon-background, .ui-state-active .ui-icon-background { border: #655e4e; background-color: #0074c7 }
 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #0074c7; text-decoration: none }
-.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight { border: 1px solid #eeb420; background: #fff9e5 url("https://file.minhchinh.com/template/minhchinh/images/ui-bg_gloss-wave_90_fff9e5_500x100.png") 50% top repeat-x; color: #1f1f1f }
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight { border: 1px solid #eeb420; background: #fff9e5 url("cdn/template/minhchinh/images/ui-bg_gloss-wave_90_fff9e5_500x100.png") 50% top repeat-x; color: #1f1f1f }
 .ui-state-checked { border: 1px solid #eeb420; background: #fff9e5 }
 .ui-state-highlight a, .ui-widget-content .ui-state-highlight a, .ui-widget-header .ui-state-highlight a { color: #1f1f1f }
-.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error { border: 1px solid #ffb73d; background: #d34d17 url("https://file.minhchinh.com/template/minhchinh/images/ui-bg_diagonals-medium_20_d34d17_40x40.png") 50% 50% repeat; color: #fff }
+.ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error { border: 1px solid #ffb73d; background: #d34d17 url("cdn/template/minhchinh/images/ui-bg_diagonals-medium_20_d34d17_40x40.png") 50% 50% repeat; color: #fff }
 .ui-state-error a, .ui-widget-content .ui-state-error a, .ui-widget-header .ui-state-error a { color: #fff }
 .ui-state-error-text, .ui-widget-content .ui-state-error-text, .ui-widget-header .ui-state-error-text { color: #fff }
 .ui-priority-primary, .ui-widget-content .ui-priority-primary, .ui-widget-header .ui-priority-primary { font-weight: bold }
@@ -201,13 +201,13 @@ body .ui-tooltip { border-width: 2px }
 .ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled { opacity: .35; filter: Alpha(Opacity=35); background-image: none }
 .ui-state-disabled .ui-icon { filter: Alpha(Opacity=35) }
 .ui-icon { width: 16px; height: 16px }
-.ui-icon, .ui-widget-content .ui-icon { background-image: url("https://file.minhchinh.com/template/minhchinh/images/ui-icons_d19405_256x240.png") }
-.ui-widget-header .ui-icon { background-image: url("https://file.minhchinh.com/template/minhchinh/images/ui-icons_fadc7a_256x240.png") }
-.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon { background-image: url("https://file.minhchinh.com/template/minhchinh/images/ui-icons_bd7b00_256x240.png") }
-.ui-state-active .ui-icon, .ui-button:active .ui-icon { background-image: url("https://file.minhchinh.com/template/minhchinh/images/ui-icons_eb990f_256x240.png") }
-.ui-state-highlight .ui-icon, .ui-button .ui-state-highlight.ui-icon { background-image: url("https://file.minhchinh.com/template/minhchinh/images/ui-icons_ed9f26_256x240.png") }
-.ui-state-error .ui-icon, .ui-state-error-text .ui-icon { background-image: url("https://file.minhchinh.com/template/minhchinh/images/ui-icons_ffe180_256x240.png") }
-.ui-button .ui-icon { background-image: url("https://file.minhchinh.com/template/minhchinh/images/ui-icons_3d3d3d_256x240.png") }
+.ui-icon, .ui-widget-content .ui-icon { background-image: url("cdn/template/minhchinh/images/ui-icons_d19405_256x240.png") }
+.ui-widget-header .ui-icon { background-image: url("cdn/template/minhchinh/images/ui-icons_fadc7a_256x240.png") }
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon { background-image: url("cdn/template/minhchinh/images/ui-icons_bd7b00_256x240.png") }
+.ui-state-active .ui-icon, .ui-button:active .ui-icon { background-image: url("cdn/template/minhchinh/images/ui-icons_eb990f_256x240.png") }
+.ui-state-highlight .ui-icon, .ui-button .ui-state-highlight.ui-icon { background-image: url("cdn/template/minhchinh/images/ui-icons_ed9f26_256x240.png") }
+.ui-state-error .ui-icon, .ui-state-error-text .ui-icon { background-image: url("cdn/template/minhchinh/images/ui-icons_ffe180_256x240.png") }
+.ui-button .ui-icon { background-image: url("cdn/template/minhchinh/images/ui-icons_3d3d3d_256x240.png") }
 .ui-icon-blank { background-position: 16px 16px }
 .ui-icon-caret-1-n { background-position: 0 0 }
 .ui-icon-caret-1-ne { background-position: -16px 0 }
@@ -399,7 +399,7 @@ h4.title img { width: 25px; vertical-align: middle }
 .clear { clear: both; height: 5px }
 .bg { background: #fff }
 .boxTienIch .block { padding-top: 20px }
-.boxTienIch .addonsIcon { background: url(/addons/images/icon_tienich.png) no-repeat; padding-top: 54px; cursor: pointer; margin: 10px 0 }
+.boxTienIch .addonsIcon { background: url(cdn/addons/images/icon_tienich.png) no-repeat; padding-top: 54px; cursor: pointer; margin: 10px 0 }
 .boxTienIch .bg { width: 100%; text-align: center; font-size: 11px }
 .boxTienIch .bg a { color: #000 }
 .boxTienIch .bg .weather { background-size: 240px; background-position: -150px -153px }
@@ -466,7 +466,7 @@ h4.title img { width: 25px; vertical-align: middle }
 .fr { float: right }
 .mCustomScrollBox { position: relative; overflow: hidden; height: 100%; max-width: 100%; outline: 0; direction: ltr }
 #football_table_box { padding-top: 15px }
-.ui-dialog-titlebar-close { border: 1px solid #d19405; background: #fece2f url(https://file.minhchinh.com/template/jquery-ui/images/ui-bg_gloss-wave_60_fece2f_500x100.png) 50% 50% repeat-x; font-weight: bold; color: #4c3000; text-indent: -99999px; }
+.ui-dialog-titlebar-close { border: 1px solid #d19405; background: #fece2f url(cdn/template/jquery-ui/images/ui-bg_gloss-wave_60_fece2f_500x100.png) 50% 50% repeat-x; font-weight: bold; color: #4c3000; text-indent: -99999px; }
 .ui-button-icon-space { padding: .4em; text-indent: -9999999px; }
 /*template*/
 div.clear { height: 10px; clear: both; overflow: hidden; text-indent: -999px }
@@ -485,11 +485,11 @@ img { outline: none }
 input, select, textarea { vertical-align: middle }
 .playout input[type=text], .playout input[type=password] { background: #FFF; font-weight: 400; font-size: 14px; height: 28px; padding: 0 3px!important; border: 1px solid #CCC; border-radius: 5px }
 .playout select { background: #FFF; font-weight: 400; font-size: 14px; padding: 2px!important; height: 28px!important; margin: 0; border: 1px solid #CCC; border-radius: 5px; outline: none; width: auto }
-#dnw-main { position: relative; z-index: 1; width: 1000px; margin: 0 auto; cursor: default; background: url(https://file.minhchinh.com/template/images/bg_menu.png) top repeat-x }
+#dnw-main { position: relative; z-index: 1; width: 1000px; margin: 0 auto; cursor: default; background: url(cdn/template/images/bg_menu.png) top repeat-x }
 .topmenu { display: block; clear: both; position: absolute; bottom: -1px }
 #topmenu_mien_home { margin: 0 auto; padding: 0; position: relative; float: right }
-#topmenu_mien_home li { float: left; display: block; padding: 0; border-top: 0; border-bottom: 0; border-radius: 0 0 5px 5px; background: url(https://file.minhchinh.com/template/images/bgrad50.png) repeat-x left -5px #fff; margin: 0 2px; overflow: hidden }
-#topmenu_mien_home li a:hover { background: url(https://file.minhchinh.com/template/images/bgrad50.png) repeat-x left -5px #BF0000; text-shadow: 1px 1px #000; color: #fff }
+#topmenu_mien_home li { float: left; display: block; padding: 0; border-top: 0; border-bottom: 0; border-radius: 0 0 5px 5px; background: url(cdn/template/images/bgrad50.png) repeat-x left -5px #fff; margin: 0 2px; overflow: hidden }
+#topmenu_mien_home li a:hover { background: url(cdn/template/images/bgrad50.png) repeat-x left -5px #BF0000; text-shadow: 1px 1px #000; color: #fff }
 .topnavbar { border-bottom: 1px solid #CCC }
 body { padding: 0; margin: 0; color: #322C20; background: #fff; font: 12px/1.5 Arial, Helvetica, sans-serif; -webkit-text-size-adjust: 100%; }
 .cleared { float: none; clear: both; margin: 0; padding: 0; border: none; font-size: 1px }
@@ -508,8 +508,8 @@ div.header_domain { float: right; right: 220px; position: absolute; display: blo
 div.logo { float: left; margin-top: 10px; width: 400px; }
 div.logo img { height: 79px; }
 .mobilelicon { float: left }
-.mobilelicon a { background: url(https://file.minhchinh.com/template/images/iphone.png) top center no-repeat; background-size: 60px; width: 60px; height: 60px; display: block; text-indent: -200px; overflow: hidden; margin-top: 10px }
-div.dnw-nav { background: url(https://file.minhchinh.com/template/images/button.png) left -41px repeat-x; margin-bottom: 10px; border: 1px solid #fff; border-left: 0; border-right: 0; width: 990px; margin: 0 auto 10px auto; border-radius: 5px; padding: 0 5px }
+.mobilelicon a { background: url(cdn/template/images/iphone.png) top center no-repeat; background-size: 60px; width: 60px; height: 60px; display: block; text-indent: -200px; overflow: hidden; margin-top: 10px }
+div.dnw-nav { background: url(cdn/template/images/button.png) left -41px repeat-x; margin-bottom: 10px; border: 1px solid #fff; border-left: 0; border-right: 0; width: 990px; margin: 0 auto 10px auto; border-radius: 5px; padding: 0 5px }
 .dnw-content-layout { display: table; position: relative; margin: 0; table-layout: fixed; border-collapse: collapse; border: none!important; width: 100% }
 .dnw-content-layout .dnw-sheet { border-radius: 5px; padding: 5px; min-height: 800px; background: #FCFCFC }
 #dnw-left, .dnw-left { width: 160px; overflow: hidden }
@@ -525,17 +525,17 @@ div.dnw-nav { background: url(https://file.minhchinh.com/template/images/button.
 li.news-list-item-title { margin-left: 25px; padding: 0 }
 li.news-list-item-title a { color: #C00; font-style: italic; text-decoration: none; font-weight: 400 }
 li.news-list-item-title a:hover { color: #06F }
-#news-list-item .btnchitiet { width: 70px; height: 20px; float: right; display: inline-block; background: url(https://file.minhchinh.com/template/images/btnchitiet.png); margin: 2px }
+#news-list-item .btnchitiet { width: 70px; height: 20px; float: right; display: inline-block; background: url(cdn/template/images/btnchitiet.png); margin: 2px }
 div.dnw-content-top { z-index: 50 }
 .news_details { padding: 5px; }
 .news_details p, .news_details span, .news_details div { font-size: 16px !important; }
 .news_details img { max-width: 480px; height: auto !important }
-.btnchitiet { width: 67px; height: 21px; display: inline-block; background: url(https://file.minhchinh.com/template/images/btndetail.png); margin: 2px }
-.btnlienhe { width: 67px; height: 21px; display: inline-block; background: url(https://file.minhchinh.com/template/images/btncontact.png); margin: 2px }
-.btndathang { width: 67px; height: 21px; display: inline-block; background: url(https://file.minhchinh.com/template/images/btnbuy.png); margin: 2px }
-.btndathang_details { width: 67px; height: 21px; display: inline-block; background: url(https://file.minhchinh.com/template/images/btnbuy.png); margin: 2px }
-.btnlienhe_details { width: 150px; height: 30px; display: none; background: url(https://file.minhchinh.com/template/images/btnlienhe.png); margin: 2px }
-.btndatmua { width: 89px; height: 36px; display: inline-block; background: url(https://file.minhchinh.com/template/images/bt_dathang.jpg); margin: 2px }
+.btnchitiet { width: 67px; height: 21px; display: inline-block; background: url(cdn/template/images/btndetail.png); margin: 2px }
+.btnlienhe { width: 67px; height: 21px; display: inline-block; background: url(cdn/template/images/btncontact.png); margin: 2px }
+.btndathang { width: 67px; height: 21px; display: inline-block; background: url(cdn/template/images/btnbuy.png); margin: 2px }
+.btndathang_details { width: 67px; height: 21px; display: inline-block; background: url(cdn/template/images/btnbuy.png); margin: 2px }
+.btnlienhe_details { width: 150px; height: 30px; display: none; background: url(cdn/template/images/btnlienhe.png); margin: 2px }
+.btndatmua { width: 89px; height: 36px; display: inline-block; background: url(cdn/template/images/bt_dathang.jpg); margin: 2px }
 .abtn, .abtn:active, .abtn:visited { border: 1px solid #C54F00; border-radius: 5px; text-align: center; font-size: 13px; padding: 3px 10px; color: #FFF; background: #faad3a; background-image: -webkit-linear-gradient(top, #faad3a, #db6714); background-image: -moz-linear-gradient(top, #faad3a, #db6714); background-image: -ms-linear-gradient(top, #faad3a, #db6714); background-image: -o-linear-gradient(top, #faad3a, #db6714); background-image: linear-gradient(to bottom, #faad3a, #db6714); cursor: pointer }
 .abtn:hover { color: #FF0 }
 .w160 { width: 160px }
@@ -548,7 +548,7 @@ div.dnw-content-top { z-index: 50 }
 #phantrang ul li { display: block; width: inherit; background-color: #FFF; float: left; margin: 2px; text-decoration: none; list-style: none }
 #phantrang ul li a { display: block; text-decoration: none; border: 1px solid #CCC; padding: 0 2px; min-width: 12px; text-align: center; color: #333; font-weight: 700 }
 #phantrang ul li a:hover, #phantrang ul li a.active { color: red; border-color: red }
-#flashtop { height: 242px; padding: 0; margin: 0; background: url(https://file.minhchinh.com/template/images/5.png) }
+#flashtop { height: 242px; padding: 0; margin: 0; background: url(cdn/template/images/5.png) }
 .border { border-bottom: 0; border-right: 0; border-left: 1px #E6E6E6 solid; border-top: 1px #E6E6E6 solid }
 .border td { border-top: 0; border-left: 0; border-right: 1px #E6E6E6 solid; border-bottom: 1px #E6E6E6 solid }
 h1.pagetitle { text-transform: uppercase; font-size: 18px; text-align: center; margin: 5px 0 }
@@ -563,7 +563,7 @@ ul { margin: 0; padding: 0 }
 li { list-style: none; margin: 0; padding: 0 }
 a, a:visited { color: #06c }
 a:hover { color: #C4161C }
-a.logo { background: url(https://file.minhchinh.com/template/images/logo.png) left bottom no-repeat; width: 100%; height: 104px; display: block }
+a.logo { background: url(cdn/template/images/logo.png) left bottom no-repeat; width: 100%; height: 104px; display: block }
 h1.title { font-size: 16px; color: #08C; line-height: 26px; padding: 0 10px }
 lable { line-height: 100%; margin: 0; padding: 0 }
 lable * { margin: 0; padding: 0 }
@@ -577,30 +577,30 @@ div.boxbinhchon { text-align: left }
 div.boxbinhchon .bc_question { text-align: left; font-weight: 700 }
 div.box_msdove { border: 1px solid #E5E5E5; margin: 10px auto; background-color: #F7F7F7; font-size: 14px; line-height: 1.5; padding: 5px; border-radius: 3px }
 div.ads_space { clear: both; display: block }
-a.dvs_linkdoisotrung { line-height: 33px; background: url(https://file.minhchinh.com/template/images/btndoisotrung.png) left -34px no-repeat; display: block; text-align: center; color: #333; text-shadow: none; width: 200px; margin: 0 auto }
-a.dvs_linkdoisotrung:hover { background: url(https://file.minhchinh.com/template/images/btndoisotrung.png) left 0 no-repeat; color: #FFF }
+a.dvs_linkdoisotrung { line-height: 33px; background: url(cdn/template/images/btndoisotrung.png) left -34px no-repeat; display: block; text-align: center; color: #333; text-shadow: none; width: 200px; margin: 0 auto }
+a.dvs_linkdoisotrung:hover { background: url(cdn/template/images/btndoisotrung.png) left 0 no-repeat; color: #FFF }
 .border { border-bottom: 0; border-right: 0; border-left: 1px #E6E6E6 solid; border-top: 1px #E6E6E6 solid }
 .border td { border-top: 0; border-left: 0; border-right: 1px #E6E6E6 solid; border-bottom: 1px #E6E6E6 solid }
 .border td a { color: #000 }
 .border td a:hover { color: red }
 .noidugnchitiet img { max-width: 520px; height: auto }
 .box_thongkexoso { border: 1px solid #E9E9E9; border-bottom: 3px solid #E9E9E9; border-radius: 5px; padding: 5px 1px 1px }
-.box_thongkexoso h2.title_kqtk { border: 1px solid #666; border-radius: 4px 4px 0 0; background: url(https://file.minhchinh.com/template/images/rand.png) top repeat-x #FF0; margin-top: -4px; font-size: 11px; line-height: 20px; padding-left: 10px; margin-bottom: 1px; color: #FFF }
+.box_thongkexoso h2.title_kqtk { border: 1px solid #666; border-radius: 4px 4px 0 0; background: url(cdn/template/images/rand.png) top repeat-x #FF0; margin-top: -4px; font-size: 11px; line-height: 20px; padding-left: 10px; margin-bottom: 1px; color: #FFF }
 .box_formthongkexoso { border: 1px solid #E0E0E0; border-bottom: 3px solid #E0E0E0; border-radius: 5px; background-color: #F9F9F9; }
 .box_formthongkexoso >div { padding: 0 10px; }
 .box_formthongkexoso h2.title { font-size: 14px; line-height: 28px; text-align: center; border-bottom: 2px solid #ccc; }
 .box_formthongkexoso h3.slecttk { font-size: 12px; line-height: 20px; margin-bottom: 1px; color: #000; padding: 5px; background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #FFCD03), color-stop(0.57, #ED9600) ); background-image: -o-linear-gradient(bottom, #FFCD03 0%, #ED9600 57%); background-image: -moz-linear-gradient(bottom, #FFCD03 0%, #ED9600 57%); background-image: -webkit-linear-gradient(bottom, #FFCD03 0%, #ED9600 57%); background-image: -ms-linear-gradient(bottom, #FFCD03 0%, #ED9600 57%); background-image: linear-gradient(to bottom, #FFCD03 0%, #ED9600 57%); text-align: center }
 .box_formthongkexoso td { vertical-align: middle!important }
 .box_thongkexosoext { border: 1px solid #E9E9E9; border-bottom: 3px solid #E9E9E9; padding: 0 10px 5px }
-.box_thongkexosoext h2.title_kqtkext { border: 1px solid #155283; background: url(https://file.minhchinh.com/template/images/rand.png) top #999; line-height: 25px; padding-left: 10px; border: 1px solid #333; text-align: center; text-transform: uppercase; color: #FFF; margin: 0 -10px; font-size: 12px }
+.box_thongkexosoext h2.title_kqtkext { border: 1px solid #155283; background: url(cdn/template/images/rand.png) top #999; line-height: 25px; padding-left: 10px; border: 1px solid #333; text-align: center; text-transform: uppercase; color: #FFF; margin: 0 -10px; font-size: 12px }
 .box_formthongkexoso input[type="text"] { width: 90% }
 div.box_tkdefault_loto { }
-div.box_tkdefault_loto h4.box_tkdefault_title { background: url(https://file.minhchinh.com/template/images/rand.png) top #999; line-height: 25px; padding-left: 10px; border: 1px solid #333; text-align: center; text-transform: uppercase; color: #FFF }
+div.box_tkdefault_loto h4.box_tkdefault_title { background: url(cdn/template/images/rand.png) top #999; line-height: 25px; padding-left: 10px; border: 1px solid #333; text-align: center; text-transform: uppercase; color: #FFF }
 div.box_tkdefault_loto table { border: 1px solid #333 }
 div.box_tkdefault_loto table td { border-bottom: 1px solid #CCC; padding: 2px; text-align: center; white-space: nowrap }
 div.box_tkdefault_loto table td.so, div.box_tkdefault_loto table tr.header td.so { background: #F5F5F5; width: 30px }
 div.box_tkdefault_loto table tr.header td { background: #CCC; height: 20px; line-height: 20px }
-span.bol30 { background-image: url(https://file.minhchinh.com/template/images/glass-balls-30px.png); background-size: 30px; background-repeat: no-repeat; height: 32px; width: 30px; display: inline-block; border: 0; vertical-align: middle; position: static; text-align: center; color: #000; font: 700 16px/30px "Times New Roman", Times, serif }
+span.bol30 { background-image: url(cdn/template/images/glass-balls-30px.png); background-size: 30px; background-repeat: no-repeat; height: 32px; width: 30px; display: inline-block; border: 0; vertical-align: middle; position: static; text-align: center; color: #000; font: 700 16px/30px "Times New Roman", Times, serif }
 .tblThongKeMax { border-collapse: collapse; text-align: center; width: 100%; font: normal 12px/150% Arial, Helvetica, sans-serif; border: solid 1px #714399; }
 .tblThongKeMax td, .tblThongKeMax th { padding: 6px 10px; }
 .tblThongKeMax thead th { background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #652299), color-stop(1, #4D1A75)); background: -moz-linear-gradient( center top, #652299 5%, #4D1A75 100%); filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#652299', endColorstr='#4D1A75');
@@ -630,16 +630,16 @@ span.bol30_0 { background-position: left -297px }
 .tollbox { position: relative; -moz-box-shadow: inset 0px 1px 0px 0px #ffffff; -webkit-box-shadow: inset 0px 1px 0px 0px #ffffff; box-shadow: inset 0px 1px 0px 0px #ffffff; background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6)); background: -moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%); background: -webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%); background: -o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%); background: -ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%); background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6', GradientType=0);
 background-color: #ffffff; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; border: 1px solid #dcdcdc; color: #666666; font-family: Arial; font-size: 15px; font-weight: normal; text-decoration: none; }
 .btnprint { -moz-box-shadow: 0px 1px 0px 0px #f0f7fa; -webkit-box-shadow: 0px 1px 0px 0px #f0f7fa; box-shadow: 0px 1px 0px 0px #f0f7fa; background-color: #1E93C9; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; border: 1px solid #1E93C9; display: inline-block; cursor: pointer; color: #ffffff; font-family: Arial; font-size: 15px; font-weight: bold; }
-.btnprint input { background: url(https://file.minhchinh.com/template/images/printer_green.png) 5px center no-repeat; background-size: 26px; background-color: transparent; border: 0; padding: 6px 6px 6px 36px; color: #fff; font-weight: bold; cursor: pointer }
+.btnprint input { background: url(cdn/template/images/printer_green.png) 5px center no-repeat; background-size: 26px; background-color: transparent; border: 0; padding: 6px 6px 6px 36px; color: #fff; font-weight: bold; cursor: pointer }
 .iconbox { float: right; padding-right: 10px; line-height: 40px; position: absolute; top: 0; right: 0; text-align: right; overflow: hidden; height: 40px; border-radius: 20px 6px 6px 20px; background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #FFFBC4), color-stop(1, #FFF196) ); background-image: -o-linear-gradient(bottom, #FFFBC4 0%, #FFF196 100%); background-image: -moz-linear-gradient(bottom, #FFFBC4 0%, #FFF196 100%); background-image: -webkit-linear-gradient(bottom, #FFFBC4 0%, #FFF196 100%); background-image: -ms-linear-gradient(bottom, #FFFBC4 0%, #FFF196 100%); background-image: linear-gradient(to bottom, #FFFBC4 0%, #FFF196 100%); border: 1px solid #FC6; margin: -1px; }
 .iconbox > div { width: 500px; float: right; right: 0 }
 .iconbox a:hover { color: #E60005 }
 .iconbox a { margin: 5px; color: #F98E00; font-weight: bold; line-height: 25px; display: inline-block; background-color: #FFF; border-radius: 10px; padding: 0 10px; }
-.closeicon { width: 23px; height: 23px; display: inline-block; background: url(https://file.minhchinh.com/template/images/button.png) 0 -362px no-repeat; margin-top: 10px; float: left; margin-left: 5px; }
-#vdntoll { background: url(https://file.minhchinh.com/template/images/calendar_today.png) 82px center no-repeat; padding-right: 25px !important; outline: none }
+.closeicon { width: 23px; height: 23px; display: inline-block; background: url(cdn/template/images/button.png) 0 -362px no-repeat; margin-top: 10px; float: left; margin-left: 5px; }
+#vdntoll { background: url(cdn/template/images/calendar_today.png) 82px center no-repeat; padding-right: 25px !important; outline: none }
 .btnseting { background: #faad3a; background-image: -webkit-linear-gradient(top, #faad3a, #db6714); background-image: -moz-linear-gradient(top, #faad3a, #db6714); background-image: -ms-linear-gradient(top, #faad3a, #db6714); background-image: -o-linear-gradient(top, #faad3a, #db6714); background-image: linear-gradient(to bottom, #faad3a, #db6714); -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 28px; border: 1px solid #DB6814; display: inline-block; cursor: pointer; color: #ffffff; font-family: Arial; font-size: 15px; font-weight: bold; text-decoration: none; text-shadow: 0px 1px 0px #810e05; }
 .btnseting a { color: #FFF; line-height: 28px; padding: 0 10px; }
-.hottitle { color: #fff; font-weight: 700; font-size: 14px; line-height: 28px; padding-left: 10px; background: url(https://file.minhchinh.com/template/images/rand.png) #fff }
+.hottitle { color: #fff; font-weight: 700; font-size: 14px; line-height: 28px; padding-left: 10px; background: url(cdn/template/images/rand.png) #fff }
 #hottoday { font-size: 10px; border: 1px solid #E2E2E2; border-radius: 5px; overflow: auto; position: relative; background: #FDFDFD; }
 #hottoday * { font-size: 11px; line-height: 25px; }
 #hottoday td { white-space: nowrap }
@@ -648,32 +648,32 @@ background-color: #ffffff; -moz-border-radius: 6px; -webkit-border-radius: 6px; 
 #hottoday .norightborder { border-right: 0 }
 .red { color: red; font-weight: 700 }
 #hottoday .icon { display: block }
-#hottoday .finnish { background: url(https://file.minhchinh.com/template/images/ok_daxosoxong.png) right center no-repeat }
-#hottoday .wait { background:  url(https://file.minhchinh.com/images/wait16.gif) right center no-repeat; background-size: 16px }
-#hottoday .running { background: url(https://file.minhchinh.com/template/images/dangtructiepxoso.gif) right center no-repeat }
+#hottoday .finnish { background: url(cdn/template/images/ok_daxosoxong.png) right center no-repeat }
+#hottoday .wait { background:  url(cdn/images/wait16.gif) right center no-repeat; background-size: 16px }
+#hottoday .running { background: url(cdn/template/images/dangtructiepxoso.gif) right center no-repeat }
 .onidprocess { position: absolute; z-index: 100; width: 70px; height: 60px; border-radius: 35px; line-height: 70px; text-align: center; left: 50%; top: 50%; padding-top: 10px; margin-left: -35px; margin-top: -35px; background: #FFF; border: 1px solid #CCC; opacity: .8 }
 #hottoday .btnprev { position: absolute; left: 0; z-index: 2; width: 20px; height: 100%; overflow: hidden; text-indent: -9999em; margin-top: 0 }
-#hottoday .btnprev:hover { background: url(https://file.minhchinh.com/template/images/backward.png) no-repeat -2px center }
+#hottoday .btnprev:hover { background: url(cdn/template/images/backward.png) no-repeat -2px center }
 #hottoday .btnnext { position: absolute; right: 0; z-index: 2; width: 20px; height: 100%; overflow: hidden; text-indent: -9999em }
-#hottoday .btnnext:hover { background: url(https://file.minhchinh.com/template/images/forward.png) no-repeat -25px center }
+#hottoday .btnnext:hover { background: url(cdn/template/images/forward.png) no-repeat -25px center }
 ul.menu .icon, ul.menu2 .icon { display: block }
-ul.menu.menu .finnish { background: url(https://file.minhchinh.com/template/images/finnish.png) right 5px center no-repeat; background-size: 16px }
-ul.menu2 .finnish { background: url(https://file.minhchinh.com/template/images/finnish.png) right center no-repeat; background-size: 16px }
-ul.menu.menu .wait { background:  url(https://file.minhchinh.com/images/wait16.gif) right 5px center no-repeat; background-size: 14px }
-ul.menu2 .wait { background:  url(https://file.minhchinh.com/images/wait16.gif) right center no-repeat; background-size: 14px }
-ul.menu.menu .running { background:  url(https://file.minhchinh.com/images/loto0.gif) right 5px center no-repeat; background-size: 16px }
-ul.menu2 .running { background:  url(https://file.minhchinh.com/images/loto0.gif) right center no-repeat; background-size: 16px }
-h1.iconnew { background: url(https://file.minhchinh.com/template/images/new.gif) 10px 2px no-repeat }
-h1.iconold { background: url(https://file.minhchinh.com/template/images/old.gif) 10px 2px no-repeat }
-#kqxsh a { display: block; color: #000; font-weight: 700; text-align: left; text-shadow: 0 1px 0 #FFFFFF, 0 2px 2px #C8C8C8; background: url(https://file.minhchinh.com/template/images/new.png) left center no-repeat; padding-left: 30px }
+ul.menu.menu .finnish { background: url(cdn/template/images/finnish.png) right 5px center no-repeat; background-size: 16px }
+ul.menu2 .finnish { background: url(cdn/template/images/finnish.png) right center no-repeat; background-size: 16px }
+ul.menu.menu .wait { background:  url(cdn/images/wait16.gif) right 5px center no-repeat; background-size: 14px }
+ul.menu2 .wait { background:  url(cdn/images/wait16.gif) right center no-repeat; background-size: 14px }
+ul.menu.menu .running { background:  url(cdn/images/loto0.gif) right 5px center no-repeat; background-size: 16px }
+ul.menu2 .running { background:  url(cdn/images/loto0.gif) right center no-repeat; background-size: 16px }
+h1.iconnew { background: url(cdn/template/images/new.gif) 10px 2px no-repeat }
+h1.iconold { background: url(cdn/template/images/old.gif) 10px 2px no-repeat }
+#kqxsh a { display: block; color: #000; font-weight: 700; text-align: left; text-shadow: 0 1px 0 #FFFFFF, 0 2px 2px #C8C8C8; background: url(cdn/template/images/new.png) left center no-repeat; padding-left: 30px }
 #kqxsh a:hover { color: #B6050A }
 #kqxsh a span.times { float: right; font-weight: 400; font-size: 11px }
-h1.ttxstt { background: url(https://file.minhchinh.com/template/images/dangtructiepxoso.gif) left center no-repeat; display: block; color: #C4161C; text-align: center; text-shadow: 0 1px 0 #FFFFFF, 0 2px 2px #C8C8C8; padding-left: 10px; font: 700 12px Verdana, Geneva, sans-serif }
-h1.ttxstt_waitting { background: url(https://file.minhchinh.com/template/images/dangchoxoso.gif) left center no-repeat; display: block; color: #06C; text-align: center; text-shadow: 0 1px 0 #FFFFFF, 0 2px 2px #C8C8C8; padding-left: 10px; font: 700 12px Verdana, Geneva, sans-serif }
-h1.ttxstt_finish { background: url(https://file.minhchinh.com/template/images/finnish.png) left center no-repeat; display: block; color: #06C; text-align: center; text-shadow: 0 1px 0 #FFFFFF, 0 2px 2px #C8C8C8; padding-left: 10px; font: 700 12px Verdana, Geneva, sans-serif }
+h1.ttxstt { background: url(cdn/template/images/dangtructiepxoso.gif) left center no-repeat; display: block; color: #C4161C; text-align: center; text-shadow: 0 1px 0 #FFFFFF, 0 2px 2px #C8C8C8; padding-left: 10px; font: 700 12px Verdana, Geneva, sans-serif }
+h1.ttxstt_waitting { background: url(cdn/template/images/dangchoxoso.gif) left center no-repeat; display: block; color: #06C; text-align: center; text-shadow: 0 1px 0 #FFFFFF, 0 2px 2px #C8C8C8; padding-left: 10px; font: 700 12px Verdana, Geneva, sans-serif }
+h1.ttxstt_finish { background: url(cdn/template/images/finnish.png) left center no-repeat; display: block; color: #06C; text-align: center; text-shadow: 0 1px 0 #FFFFFF, 0 2px 2px #C8C8C8; padding-left: 10px; font: 700 12px Verdana, Geneva, sans-serif }
 #rokslide-toolbar li { float: left; width: 150px }
-#rokslide-toolbar li.current, #rokslide-toolbar li.last.current { background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: url(https://file.minhchinh.com/template/images/tabber-active.png); background-origin: padding-box; background-position: 0 0; background-repeat: repeat-x; background-size: auto }
-#rokslide-toolbar { background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: url(https://file.minhchinh.com/template/images/tabber-inactive.png); background-origin: padding-box; background-position: 0 0; background-repeat: repeat-x; background-size: auto }
+#rokslide-toolbar li.current, #rokslide-toolbar li.last.current { background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: url(cdn/template/images/tabber-active.png); background-origin: padding-box; background-position: 0 0; background-repeat: repeat-x; background-size: auto }
+#rokslide-toolbar { background-attachment: scroll; background-clip: border-box; background-color: transparent; background-image: url(cdn/template/images/tabber-inactive.png); background-origin: padding-box; background-position: 0 0; background-repeat: repeat-x; background-size: auto }
 #navItem3_SubNavItem56_SubNav { width: 300px }
 #navItem3_SubNavItem56_SubNav li { width: 100px; float: left; max-width: 100px; text-align: left; background: none }
 #navItem3_SubNavItem56_SubNav li a { background: none }
@@ -694,7 +694,7 @@ div#frame div.button#left:hover, div#frame div.button#left.hover, div#frame div.
 div.borderdiv { border: 1px #E6E6E6 solid; margin-bottom: 10px }
 .vesotrung { color: #DF0000; font-size: 14px; font-weight: 700; padding: 5px 0 5px 5px; line-height: 150% }
 .vesokotrung { color: #000; font-size: 14px; font-weight: 700; padding: 5px 0 5px 5px; text-shadow: 0 1px 0 #FFFFFF, 0 1px 1px; line-height: 150% }
-#donghodemnguoc { background: url(https://file.minhchinh.com/template/images/bg_clock_xstt.png) 2px top no-repeat; width: 240px; height: 80px }
+#donghodemnguoc { background: url(cdn/template/images/bg_clock_xstt.png) 2px top no-repeat; width: 240px; height: 80px }
 #donghodemnguoc td { vertical-align: middle; color: #000; text-align: center; font: 36px Arial, Helvetica, sans-serif }
 #tab_xstt { width: 100%; vertical-align: text-bottom; text-align: center; padding-left: 1px; padding-right: 1px }
 #tab_xstt a { background: #FC6; height: 18px; width: 22%; font-size: 12px; font-weight: 700; text-transform: uppercase; display: inline-block; padding: 6px 0; border-radius: 5px 5px 0 0; color: #FFF; margin: 0 }
@@ -718,11 +718,11 @@ ul.menuxosott li a:hover { color: #C4161C }
 ul.menu { margin: 0 2px; text-align: left }
 ul.menu ul { margin: 0; padding: 0; margin-bottom: -1px }
 ul.menu ul li { list-style: none; margin-top: -1px; padding: 4px 0px; border-bottom: 1px solid #FAFAFA }
-ul.menu li a { text-decoration: none; color: #333; display: block; padding: 11px 0 5px 10px; white-space: nowrap; background: url(https://file.minhchinh.com/template/images/arrow_1.gif) left center no-repeat; font: 13px Arial, Helvetica, sans-serif }
+ul.menu li a { text-decoration: none; color: #333; display: block; padding: 11px 0 5px 10px; white-space: nowrap; background: url(cdn/template/images/arrow_1.gif) left center no-repeat; font: 13px Arial, Helvetica, sans-serif }
 ul.menu li ul li a { text-decoration: none; color: #333; display: block; padding: 3px 0; white-space: nowrap; font: 400 13px Tahoma, Geneva, sans-serif }
 ul.menu li a:hover { color: #C4161C }
-ul.menu.menulichxoso li a { background: url(https://file.minhchinh.com/template/images/arrow_down_gold.gif) 0 16px no-repeat; padding-left: 15px }
-ul.menu.menulichxoso li ul li a { background: url(https://file.minhchinh.com/template/images/arrow_1.gif) 5px center no-repeat; padding-left: 15px }
+ul.menu.menulichxoso li a { background: url(cdn/template/images/arrow_down_gold.gif) 0 16px no-repeat; padding-left: 15px }
+ul.menu.menulichxoso li ul li a { background: url(cdn/template/images/arrow_1.gif) 5px center no-repeat; padding-left: 15px }
 .content .box_ad { background: #FFF; padding: 5px 0px 5px 8px; }
 ul.list_doisotrung { text-align: left; line-height: 170%; padding-left: 17px; }
 ul.list_doisotrung li { list-style: outside; margin: 2px 0; padding-left: 0; font-size: 15px; color: #D21717; font-weight: bold; }
@@ -767,17 +767,17 @@ ul.pagenav li a:hover { background: #8a1c08; background-image: -webkit-linear-gr
 /*ul.pagenav li.active { background-color: #999 }*/
 ul.pagenav li a.active { background: #FFD7D7; color: #000; display: block }
 ul.pagenav li a.f_link { color: #CCC; cursor: not-allowed }
-#sodauduoi .div1 .td1 { background-image: url(https://file.minhchinh.com/template/images/ctt1.png); width: 11px; height: 37px }
-#sodauduoi .div1 .td2 { text-align: left; white-space: nowrap; background-image: url(https://file.minhchinh.com/template/images/ctt2.png); padding: 0 10px; min-width: 100px; font-size: 14px; font-weight: 700; color: #FFF }
-#sodauduoi .div1 .td3 { background-image: url(https://file.minhchinh.com/template/images/ctt3.png); width: 66px; min-width: 66px; min-width: 66px }
-#sodauduoi .div1 .td4 { background-image: url(https://file.minhchinh.com/template/images/ctt4.png); width: 250px }
-#sodauduoi .div1 .td5 { background-image: url(https://file.minhchinh.com/template/images/ctt5.png); width: 9px }
-#sodauduoi .div2 .td1 { background-image: url(https://file.minhchinh.com/template/images/ctc1.png); width: 3px; background-position: left; background-repeat: repeat-y }
+#sodauduoi .div1 .td1 { background-image: url(cdn/template/images/ctt1.png); width: 11px; height: 37px }
+#sodauduoi .div1 .td2 { text-align: left; white-space: nowrap; background-image: url(cdn/template/images/ctt2.png); padding: 0 10px; min-width: 100px; font-size: 14px; font-weight: 700; color: #FFF }
+#sodauduoi .div1 .td3 { background-image: url(cdn/template/images/ctt3.png); width: 66px; min-width: 66px; min-width: 66px }
+#sodauduoi .div1 .td4 { background-image: url(cdn/template/images/ctt4.png); width: 250px }
+#sodauduoi .div1 .td5 { background-image: url(cdn/template/images/ctt5.png); width: 9px }
+#sodauduoi .div2 .td1 { background-image: url(cdn/template/images/ctc1.png); width: 3px; background-position: left; background-repeat: repeat-y }
 #sodauduoi .div2 .td2 { padding: 5px; vertical-align: top; text-align: left; background-color: #FFF }
-#sodauduoi .div2 .td3 { background-image: url(https://file.minhchinh.com/template/images/ctc2.png); background-position: right; background-repeat: repeat-y; width: 3px }
-#sodauduoi .div3 .td1 { background-image: url(https://file.minhchinh.com/template/images/ctb1.png); width: 11px; height: 11px }
-#sodauduoi .div3 .td2 { background-image: url(https://file.minhchinh.com/template/images/ctb2.png) }
-#sodauduoi .div3 .td3 { background-image: url(https://file.minhchinh.com/template/images/ctb3.png); width: 9px }
+#sodauduoi .div2 .td3 { background-image: url(cdn/template/images/ctc2.png); background-position: right; background-repeat: repeat-y; width: 3px }
+#sodauduoi .div3 .td1 { background-image: url(cdn/template/images/ctb1.png); width: 11px; height: 11px }
+#sodauduoi .div3 .td2 { background-image: url(cdn/template/images/ctb2.png) }
+#sodauduoi .div3 .td3 { background-image: url(cdn/template/images/ctb3.png); width: 9px }
 .sodauduoi_miennam { border: 1px #999 double; size: 11px; width: 100%; margin-bottom: 10px; line-height: 200% }
 .sodauduoi_miennam .ngay { font-size: 13px; font-weight: 400; text-align: center; width: 25%; vertical-align: top; max-width: 80px; line-height: 23px; color: #999; padding: 2px 0; }
 .sodauduoi_miennam .kq { text-align: center; border: 1px #999 double; border-right: 0; border-bottom: 0; border-top: 0; vertical-align: top; width: 33%; color: #999; font: 400 13px Tahoma, Geneva, sans-serif }
@@ -785,7 +785,7 @@ ul.pagenav li a.f_link { color: #CCC; cursor: not-allowed }
 .sodauduoi_miennam .kq .do { color: #C4161C; font-size: 20px; font-weight: 700 }
 .sodauduoi_mienbac { border: 1px #999 double; border-right: 0; border-bottom: 0; size: 11px; margin-bottom: 10px; line-height: 30px }
 .sodauduoi_mienbac .ngay { font-size: 13px; font-weight: 400; text-align: center; width: 130px; border: 1px #999 double; border-left: 0; border-top: 0; vertical-align: top; padding-left: 5px }
-.sodauduoi_mienbac .tg7, .sodauduoi_mienbac .topthungay, .sodauduoi_mienbac .tdb { font-size: 13px; font-weight: 400; text-align: center; border: 1px #999 double; border-left: 0; border-top: 0; vertical-align: top; padding-left: 5px; background: url(https://file.minhchinh.com/template/images/bg_box_den_title.png) repeat-x; color: #fff; font-weight: bold; line-height: 27px }
+.sodauduoi_mienbac .tg7, .sodauduoi_mienbac .topthungay, .sodauduoi_mienbac .tdb { font-size: 13px; font-weight: 400; text-align: center; border: 1px #999 double; border-left: 0; border-top: 0; vertical-align: top; padding-left: 5px; background: url(cdn/template/images/bg_box_den_title.png) repeat-x; color: #fff; font-weight: bold; line-height: 27px }
 .sodauduoi_mienbac .topthungay { width: 130px }
 .sodauduoi_mienbac .g7 { text-align: center; border: 1px #999 double; border-left: 0; border-top: 0; vertical-align: middle; width: 100px; color: #999; font: 400 13px Tahoma, Geneva, sans-serif; padding: 0 5px }
 .sodauduoi_mienbac .g7 .xanh { font-size: 20px; color: #08C; font-weight: 700 }
@@ -794,52 +794,52 @@ ul.pagenav li a.f_link { color: #CCC; cursor: not-allowed }
 .sodauduoi_mienbac .tdb { width: 120px }
 .sodauduoi_mienbac .db .xanh { color: #08C; font-size: 20px; font-weight: 700 }
 .sodauduoi_mienbac .db .do { color: #C4161C; font-size: 20px; font-weight: 700 }
-#gancucdai .div1 .td1 { background-image: url(https://file.minhchinh.com/template/images/ctt1.png); width: 11px; height: 37px }
-#gancucdai .div1 .td2 { text-align: left; white-space: nowrap; background-image: url(https://file.minhchinh.com/template/images/ctt2.png); padding: 0 10px; min-width: 100px; font-size: 14px; font-weight: 700; color: #FFF }
-#gancucdai .div1 .td3 { background-image: url(https://file.minhchinh.com/template/images/ctt3.png); width: 66px; min-width: 66px; min-width: 66px }
-#gancucdai .div1 .td4 { background-image: url(https://file.minhchinh.com/template/images/ctt4.png); width: 300px }
-#gancucdai .div1 .td5 { background-image: url(https://file.minhchinh.com/template/images/ctt5.png); width: 9px }
-#gancucdai .div2 .td1 { background-image: url(https://file.minhchinh.com/template/images/ctc1.png); width: 3px; background-position: left; background-repeat: repeat-y }
+#gancucdai .div1 .td1 { background-image: url(cdn/template/images/ctt1.png); width: 11px; height: 37px }
+#gancucdai .div1 .td2 { text-align: left; white-space: nowrap; background-image: url(cdn/template/images/ctt2.png); padding: 0 10px; min-width: 100px; font-size: 14px; font-weight: 700; color: #FFF }
+#gancucdai .div1 .td3 { background-image: url(cdn/template/images/ctt3.png); width: 66px; min-width: 66px; min-width: 66px }
+#gancucdai .div1 .td4 { background-image: url(cdn/template/images/ctt4.png); width: 300px }
+#gancucdai .div1 .td5 { background-image: url(cdn/template/images/ctt5.png); width: 9px }
+#gancucdai .div2 .td1 { background-image: url(cdn/template/images/ctc1.png); width: 3px; background-position: left; background-repeat: repeat-y }
 #gancucdai .div2 .td2 { padding: 5px; vertical-align: top; text-align: left; background-color: #FFF }
-#gancucdai .div2 .td3 { background-image: url(https://file.minhchinh.com/template/images/ctc2.png); background-position: right; background-repeat: repeat-y; width: 3px }
-#gancucdai .div3 .td1 { background-image: url(https://file.minhchinh.com/template/images/ctb1.png); width: 11px; height: 11px }
-#gancucdai .div3 .td2 { background-image: url(https://file.minhchinh.com/template/images/ctb2.png) }
-#gancucdai .div3 .td3 { background-image: url(https://file.minhchinh.com/template/images/ctb3.png); width: 9px }
+#gancucdai .div2 .td3 { background-image: url(cdn/template/images/ctc2.png); background-position: right; background-repeat: repeat-y; width: 3px }
+#gancucdai .div3 .td1 { background-image: url(cdn/template/images/ctb1.png); width: 11px; height: 11px }
+#gancucdai .div3 .td2 { background-image: url(cdn/template/images/ctb2.png) }
+#gancucdai .div3 .td3 { background-image: url(cdn/template/images/ctb3.png); width: 9px }
 .gancucdai_info { border: 1px #999 double; size: 11px; border-right: 0; border-bottom: 0 }
-.gancucdai_info .dayso { border: 1px #999 double; border-left: 0; border-top: 0; size: 11px; background-color: #999; color: #FFF; font-size: 14px; font-weight: 700; background: url(https://file.minhchinh.com/template/images/ti.jpg) }
+.gancucdai_info .dayso { border: 1px #999 double; border-left: 0; border-top: 0; size: 11px; background-color: #999; color: #FFF; font-size: 14px; font-weight: 700; background: url(cdn/template/images/ti.jpg) }
 .gancucdai_info .gancucdai { border: 1px #999 double; border-left: 0; border-top: 0; size: 11px }
 .gancucdai_info .ngay { border: 1px #999 double; border-left: 0; border-top: 0; size: 11px }
 .bangthongke { border: 1px #999 double; border-right: 0; border-bottom: 0; size: 11px; width: 100% }
-.bangthongke .dayso { text-align: left; background-color: #999; color: #FFF; font-size: 13px; font-weight: 700; height: 24px; background-image: url(https://file.minhchinh.com/template/images/ti.jpg) }
+.bangthongke .dayso { text-align: left; background-color: #999; color: #FFF; font-size: 13px; font-weight: 700; height: 24px; background-image: url(cdn/template/images/ti.jpg) }
 .bangthongke .so { background-color: #999; color: #FFF; font-size: 13px; font-weight: 700; height: 24px }
 .bangthongke .ngay { width: 80px; border: 1px #999 double; border-left: 0; border-top: 0; padding: 5px; font-size: 11px; font-weight: 700; text-align: center }
 .bangthongke .ngay a { font-weight: 400 }
 .bangthongke .kq { border: 1px #999 double; border-left: 0; border-top: 0; padding: 5px; font-size: 12px }
 .bangthongketangsuat { size: 11px; max-width: 500px; overflow: hidden }
 .bangthongketangsuat td { border-bottom: 1px solid #F4F4F4 }
-.bangthongketangsuat .tieude { background-color: #004592; color: #FFF; font-size: 13px; font-weight: 700; height: 16px; background-image: url(https://file.minhchinh.com/template/images/ti.jpg) }
+.bangthongketangsuat .tieude { background-color: #004592; color: #FFF; font-size: 13px; font-weight: 700; height: 16px; background-image: url(cdn/template/images/ti.jpg) }
 .bangthongketangsuat .so { color: #03C; font-size: 11px; font-weight: 700; width: 40px }
 .bangthongketangsuat .ts { font-size: 11px; line-height: 30px }
 .bangthongketangsuat .ts .chiso { border-radius: 4px; max-width: 400px; background-color: #A3A3A3; float: left; height: 10px; margin-top: 10px }
-#caccapsoxuathien .chiso { border-radius: 4px; float: left; background: url(https://file.minhchinh.com/template/images/rand.png) #FFF; height: 10px }
-#caccapsoxuathien30 .chiso { border-radius: 4px; float: left; background: url(https://file.minhchinh.com/template/images/rand.png) #FFF; height: 10px }
-#thongkexxdau .chiso { border-radius: 4px; float: left; background: url(https://file.minhchinh.com/template/images/rand.png) #FFF; height: 10px }
-#thongkexxduoi .chiso { border-radius: 4px; float: left; background: url(https://file.minhchinh.com/template/images/rand.png) #FFF; height: 10px }
+#caccapsoxuathien .chiso { border-radius: 4px; float: left; background: url(cdn/template/images/rand.png) #FFF; height: 10px }
+#caccapsoxuathien30 .chiso { border-radius: 4px; float: left; background: url(cdn/template/images/rand.png) #FFF; height: 10px }
+#thongkexxdau .chiso { border-radius: 4px; float: left; background: url(cdn/template/images/rand.png) #FFF; height: 10px }
+#thongkexxduoi .chiso { border-radius: 4px; float: left; background: url(cdn/template/images/rand.png) #FFF; height: 10px }
 #box_tracuukqxs { height: 150px }
 #box_tracuukqxs input, #box_tracuukqxs select, #box_tracuukqxs td { font-size: 11px }
 #statusbar { color: red; border: 1px solid #FDD34F; border-radius: 5px; padding: 2px 5px; clear: both; margin-bottom: 10px; min-height: 20px; text-align: center; background: #FCF0D8; font: 700 11px/20px Verdana, Geneva, sans-serif }
-#statusbar a.running { color: #D60000; background:  url(https://file.minhchinh.com/images/loto0.gif) left center no-repeat; padding-left: 20px; background-size: 16px; line-height: 20px; display: block }
-#statusbar a.waitting { color: #06C; background:  url(https://file.minhchinh.com/images/wait16.gif) left center no-repeat; padding-left: 20px; background-size: 16px; line-height: 20px; display: block }
-#statusbar span.waitting { color: #000; background: url(https://file.minhchinh.com/template/images/dangchoxoso.gif) left center no-repeat; padding-left: 40px; line-height: 20px; display: block }
-#statusbar a.finnish { color: #06C; background: url(https://file.minhchinh.com/template/images/finnish.png) left center no-repeat; padding-left: 20px; line-height: 20px; display: block }
-a.buttonGrey, a.buttonBlue { background-image: url(https://file.minhchinh.com/template/images/menu-sprite.png); background-repeat: no-repeat; position: relative; display: block; width: 99px; height: 29px; font: bold 12px/28px arial, sans-serif; text-align: center; text-decoration: none; border-bottom: none!important }
+#statusbar a.running { color: #D60000; background:  url(cdn/images/loto0.gif) left center no-repeat; padding-left: 20px; background-size: 16px; line-height: 20px; display: block }
+#statusbar a.waitting { color: #06C; background:  url(cdn/images/wait16.gif) left center no-repeat; padding-left: 20px; background-size: 16px; line-height: 20px; display: block }
+#statusbar span.waitting { color: #000; background: url(cdn/template/images/dangchoxoso.gif) left center no-repeat; padding-left: 40px; line-height: 20px; display: block }
+#statusbar a.finnish { color: #06C; background: url(cdn/template/images/finnish.png) left center no-repeat; padding-left: 20px; line-height: 20px; display: block }
+a.buttonGrey, a.buttonBlue { background-image: url(cdn/template/images/menu-sprite.png); background-repeat: no-repeat; position: relative; display: block; width: 99px; height: 29px; font: bold 12px/28px arial, sans-serif; text-align: center; text-decoration: none; border-bottom: none!important }
 a.buttonGrey:hover, a.buttonBlue:hover { background-position: 0 -118px; text-decoration: none; text-shadow: #fff 1px 1px 0; color: #000!important; border-bottom: none!important }
 a.buttonGrey { background-position: 0 -89px; color: #333!important; text-shadow: #fff 1px 1px 0 }
 a.buttonBlue { background-position: -100px -89px; color: #fff!important; text-shadow: #333 -1px -1px 0 }
 input.btnxemthongke:hover { text-decoration: none; text-shadow: #fff 1px 1px 0; color: #000!important }
 input.btnxemthongke { background: #258dc8; background: -moz-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(24,87,127,1) 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(37,141,200,1)), color-stop(100%, rgba(24,87,127,1))); background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(24,87,127,1) 100%); background: -o-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(24,87,127,1) 100%); background: -ms-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(24,87,127,1) 100%); background: linear-gradient(to bottom, rgba(37,141,200,1) 0%, rgba(24,87,127,1) 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#258dc8', endColorstr='#18577f', GradientType=0);
 position: relative; display: block; border-radius: 5px; height: 30px; font: bold 12px/28px arial, sans-serif; text-align: center; text-decoration: none; color: #fff!important; text-shadow: #333 -1px -1px 0; border: 0; cursor: pointer; margin: 0 auto }
-.logodaily { border: 3px solid #E2E2E2; border-radius: 5px; padding: 3px 0; height: 90px; overflow: hidden; background: url(https://file.minhchinh.com/template/images/bglogodl.png) top left }
+.logodaily { border: 3px solid #E2E2E2; border-radius: 5px; padding: 3px 0; height: 90px; overflow: hidden; background: url(cdn/template/images/bglogodl.png) top left }
 .logodaily .lhdl_top { color: #FFF; margin: 0; text-align: center; margin-top: 5px; font: 700 14px/24px "Times New Roman", Times, serif }
 .logodaily .lhdl_mid { color: #FF0; margin: 0; text-align: center; font: 700 20px "Times New Roman", Times, serif }
 .logodaily .lhdl_bottom { color: #FFF; margin: 0; padding: 0; text-align: center; font: 700 20px Arial, Helvetica, sans-serif }
@@ -857,13 +857,13 @@ ul.menumember li { text-align: left; border-bottom: 1px dotted #CCC; padding: 3p
 div.div_tab_thu { clear: both; padding-top: 5px; }
 div.div_tab_thu ul { }
 ul.tab_thu li { float: left; margin: 3px 0px 0 0; width: 12.5%; }
-ul.tab_thu li a { font-size: 12px; line-height: 20px; white-space: nowrap; border: 1px solid #CCC; border-radius: 5px 5px 0 0; background: url(https://file.minhchinh.com/template/images/bgrad50.png) repeat-x left 0 #F5F5F5; color: #333; padding: 3px 0px; text-align: center; display: block }
-ul.tab_thu li a:hover, ul.tab_thu li a.active { color: #06C; background: url(https://file.minhchinh.com/template/images/bg-tab-thu-active.jpg) repeat-x }
+ul.tab_thu li a { font-size: 12px; line-height: 20px; white-space: nowrap; border: 1px solid #CCC; border-radius: 5px 5px 0 0; background: url(cdn/template/images/bgrad50.png) repeat-x left 0 #F5F5F5; color: #333; padding: 3px 0px; text-align: center; display: block }
+ul.tab_thu li a:hover, ul.tab_thu li a.active { color: #06C; background: url(cdn/template/images/bg-tab-thu-active.jpg) repeat-x }
 .LR-box { border: 1px solid #E1E1E1; padding: 3px; background: rgba(233, 234, 237, 0.54); }
-.LR-box h2.title { background: url(https://file.minhchinh.com/template/images/LR-15-11-t-c.gif) repeat-x; margin: -6px -5px 5px; font-size: 12px; color: #FFF; line-height: 12px; padding: 8px 0 8px 5px }
+.LR-box h2.title { background: url(cdn/template/images/LR-15-11-t-c.gif) repeat-x; margin: -6px -5px 5px; font-size: 12px; color: #FFF; line-height: 12px; padding: 8px 0 8px 5px }
 ul.forum_new_post { margin: 0; padding: 0 }
 ul.forum_new_post li { list-style: none; margin: 4px 0; border-bottom: 1px dotted #EEE; height: 18px; overflow: hidden }
-ul.forum_new_post li a { color: #036; line-height: 18px; font-size: 12px; background: url(https://file.minhchinh.com/template/images/arrow_1.gif) left center no-repeat; padding-left: 10px }
+ul.forum_new_post li a { color: #036; line-height: 18px; font-size: 12px; background: url(cdn/template/images/arrow_1.gif) left center no-repeat; padding-left: 10px }
 ul.forum_new_post li a:hover { color: #999 }
 ul.forum_new_post li .forum { font-style: italic; font-size: 11px; padding-right: 5px; color: #999 }
 ul.forum_new_post li .user { text-align: right; font-style: italic; font-size: 11px; padding-right: 5px }
@@ -871,8 +871,8 @@ div.box_bc { clear: both; padding: 5px; border: 1px solid #CCC; border-radius: 7
 div.bc_question { font-weight: 700; margin-bottom: 5px }
 div.bc_res { clear: both; border-top: 1px solid #CCC; padding: 5px }
 div.bc_as { font-style: italic }
-div.bc_as_ch { clear: both; height: 15px; line-height: 15px; font-size: 10px; text-indent: 10px; border: 1px solid #CCC; border-radius: 3px; background-image: url(https://file.minhchinh.com/template/images/bgrad50.png); background-position: left -100px }
-div.bcsmall_as_ch { clear: both; height: 5px; font-size: 10px; text-indent: 10px; border: 1px solid #CCC; border-radius: 3px; background-image: url(https://file.minhchinh.com/template/images/bgrad50.png); background-position: left -100px; display: block }
+div.bc_as_ch { clear: both; height: 15px; line-height: 15px; font-size: 10px; text-indent: 10px; border: 1px solid #CCC; border-radius: 3px; background-image: url(cdn/template/images/bgrad50.png); background-position: left -100px }
+div.bcsmall_as_ch { clear: both; height: 5px; font-size: 10px; text-indent: 10px; border: 1px solid #CCC; border-radius: 3px; background-image: url(cdn/template/images/bgrad50.png); background-position: left -100px; display: block }
 div.bc_as_ch1 { background-color: #F90 }
 div.bc_as_ch2 { background-color: #069 }
 div.bc_as_ch3 { background-color: #996 }
@@ -909,8 +909,8 @@ ul.list_news li a { color: #333; font-style: italic }
 .box_skitter.box_skitter_small.image img { display: none; width: 520px; height: 120px }
 .box_skitter .box_clone { position: absolute; top: 0; left: 0; width: 100px; overflow: hidden; display: none; z-index: 1 }
 .box_clone img { position: absolute; top: 0; left: 0; z-index: 1 }
-.prev_button { position: absolute; top: 50%; left: 10px; z-index: 100; width: 42px; height: 42px; overflow: hidden; text-indent: -9999em; margin-top: -25px; background: url(https://file.minhchinh.com/template/images/prevsl.png) no-repeat left top }
-.box_skitter .next_button { position: absolute; top: 50%; right: 10px; z-index: 100; width: 42px; height: 42px; overflow: hidden; text-indent: -9999em; margin-top: -25px; background: url(https://file.minhchinh.com/template/images/nextsl.png) no-repeat left top }
+.prev_button { position: absolute; top: 50%; left: 10px; z-index: 100; width: 42px; height: 42px; overflow: hidden; text-indent: -9999em; margin-top: -25px; background: url(cdn/template/images/prevsl.png) no-repeat left top }
+.box_skitter .next_button { position: absolute; top: 50%; right: 10px; z-index: 100; width: 42px; height: 42px; overflow: hidden; text-indent: -9999em; margin-top: -25px; background: url(cdn/template/images/nextsl.png) no-repeat left top }
 .box_skitter .info_slide { position: absolute; top: 15px; left: 15px; background: #000; color: #fff; font: bold 11px arial; padding: 5px 0 5px 5px; border-radius: 5px; opacity: .75; z-index: 2 }
 .box_skitter .info_slide .image_number { background: #333; float: left; padding: 2px 10px; margin: 0 5px 0 0; cursor: pointer; border-radius: 2px }
 .box_skitter .info_slide .image_number_select { background: #c00; float: left; padding: 2px 10px; margin: 0 5px 0 0 }
@@ -924,8 +924,8 @@ ul.list_news li a { color: #333; font-style: italic }
 .box_skitter .info_slide_dots .image_number { background: #333; float: left; margin: 0 5px 0 0; cursor: pointer; border-radius: 50px; width: 18px; height: 18px; text-indent: -9999em; overflow: hidden; position: relative }
 .box_skitter .info_slide_dots .image_number_select { background: #c00; float: left; margin: 0 5px 0 0 }
 .box_skitter .label_skitter { z-index: 1; position: absolute; bottom: 0; left: 0; display: none }
-div#skitter.loading { position: absolute; top: 50%; right: 50%; z-index: 10000; margin: -16px; color: #fff; text-indent: -9999em; overflow: hidden; background: url(https://file.minhchinh.com/template/images/ajax-loader.gif) no-repeat left top; width: 32px; height: 32px }
-.label_skitter { z-index: 150; position: absolute; bottom: 0; left: 0; background: url(https://file.minhchinh.com/template/images/back-box-label-black.png) repeat-x left top; color: #fff; display: none; border-top: 1px solid #000 }
+div#skitter.loading { position: absolute; top: 50%; right: 50%; z-index: 10000; margin: -16px; color: #fff; text-indent: -9999em; overflow: hidden; background: url(cdn/template/images/ajax-loader.gif) no-repeat left top; width: 32px; height: 32px }
+.label_skitter { z-index: 150; position: absolute; bottom: 0; left: 0; background: url(cdn/template/images/back-box-label-black.png) repeat-x left top; color: #fff; display: none; border-top: 1px solid #000 }
 .boxdudoankqxs { border: 1px solid #999; border-radius: 5px; background: #D00; color: #FFF }
 .radioboxline { border: 1px solid #CCC; border-radius: 5px; background: #454545; margin-bottom: 10px; color: #FFF; overflow: hidden }
 .radioboxline h3 { padding-left: 10px; font-size: 13px; font-style: normal; line-height: 40px }
@@ -936,7 +936,7 @@ div#skitter.loading { position: absolute; top: 50%; right: 50%; z-index: 10000; 
 .chatbox { position: fixed; bottom: 0; float: right; right: 0; height: 300px }
 #chatboxcontent { border: 1px solid #CCC; border-radius: 10px 0 0 0; overflow: hidden; width: 400px; height: 300px; min-height: 300px; display: none }
 #chatboxcontent iframe { min-width: 400px }
-.onofchat { float: left; height: 185px; width: 40px; margin-left: -40px; cursor: pointer; margin-top: 10px; background: url(https://file.minhchinh.com/template/images/btn.png) no-repeat; border: 0; text-indent: -300px; overflow: hidden }
+.onofchat { float: left; height: 185px; width: 40px; margin-left: -40px; cursor: pointer; margin-top: 10px; background: url(cdn/template/images/btn.png) no-repeat; border: 0; text-indent: -300px; overflow: hidden }
 .info_slide * { font-family: Consolas, arial, tahoma!important }
 .defaulttext { color: #999!important; font-weight: 400 }
 .defaulttext.removedefaulttext { color: #000!important; font-weight: inherit }
@@ -995,7 +995,7 @@ span.top-menu-popup-span { color: #C00D0E; display: block; font-size: 14px; font
 .list_khongxuathienlaunhat { float: left; margin: 2px 0px; width: 33%; white-space: nowrap }
 .list_khongxuathienlaunhat_vietlott { float: left; margin: 4px 0px; width: 20%; white-space: nowrap }
 .list_khongxuathienlaunhat_right { float: left; margin: 2px 0; width: 130px; }
-.scrollup { position: fixed; cursor: pointer; display: none; right: 5px; bottom: 5px; height: 50px; width: 50px; background: url(https://file.minhchinh.com/template/images/top.png) center top no-repeat }
+.scrollup { position: fixed; cursor: pointer; display: none; right: 5px; bottom: 5px; height: 50px; width: 50px; background: url(cdn/template/images/top.png) center top no-repeat }
 #ui-datepicker-div { z-index: 1000!important; min-width: 250px }
 .ui-datepicker-header { background: #000!important; margin: -3px -3px 0; border-radius: 8px 8px 0 0 }
 .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next { border: 1px solid #666!important }
@@ -1003,7 +1003,7 @@ span.top-menu-popup-span { color: #C00D0E; display: block; font-size: 14px; font
 #hms_timer { color: red }
 .sharebutton_wg { top: 50%; left: 0; margin-top: -226px; float: left; border: 1px solid #FC6; border-radius: 6px; padding: 5px 0; background-color: #FFFCE8; display: inherit; text-align: center; position: fixed; z-index: 2000 }
 .sharebutton_wg .stButton { padding: 3px; background: #fff; border: 1px solid #FBEAB5; border-radius: 3px }
-.stButton .stBubble { height: auto!important; padding-bottom: 4px; margin-top: 0!important; background: url(http://w.sharethis.com/share4x/images/bubble_arrow_below.png) no-repeat 10px 22px!important }
+.stButton .stBubble { height: auto!important; padding-bottom: 4px; margin-top: 0!important; background: url(cdn/sharethis/bubble_arrow_below.png) no-repeat 10px 22px!important }
 .stButton .stBubble_count { height: auto!important; padding-top: 2px!important; font-size: 14px!important; line-height: 18px!important }
 .stButton .googleplus { font-size: 10px!important }
 #leftmodule span.tags { display: block; float: left; padding: 0 3px; }
@@ -1038,9 +1038,9 @@ span.top-menu-popup-span { color: #C00D0E; display: block; font-size: 14px; font
 .box_vedo_seting input.vddaivalue { width: 20px !important; margin: 0 5px; height: 20px !important; background: #FF9; text-align: center; margin: 1px }
 .box_vedo_seting .wttdai { border: 1px solid #FC3; border-radius: 3px; background: #FFC; margin-right: 5px; height: 24px; display: inline-block; padding-left: 3px; }
 .tollototructiep { background: #cc0000; display: inline-block; width: 100% }
-.btnlotohanchuc, .btnlotohandonvi { background: url(https://file.minhchinh.com/template/images/btnswitch.png) bottom right no-repeat; cursor: pointer; display: inline-block; height: 30px; line-height: 30px; background-size: 80px; padding-right: 85px; float: left; padding-left: 10px; color: #fff; font-weight: bold; }
+.btnlotohanchuc, .btnlotohandonvi { background: url(cdn/template/images/btnswitch.png) bottom right no-repeat; cursor: pointer; display: inline-block; height: 30px; line-height: 30px; background-size: 80px; padding-right: 85px; float: left; padding-left: 10px; color: #fff; font-weight: bold; }
 .btnlotohanchuc { float: right; margin-right: 5px; }
-.btnlotohanchuc.off, .btnlotohandonvi.off { background: url(https://file.minhchinh.com/template/images/btnswitch.png) top right no-repeat; background-size: 80px; }/**//* navbar */
+.btnlotohanchuc.off, .btnlotohandonvi.off { background: url(cdn/template/images/btnswitch.png) top right no-repeat; background-size: 80px; }/**//* navbar */
 body { min-width: 320px; padding: 0; margin: 0; color: #322C20; font: 13px/1.5 Arial, Helvetica, sans-serif; -webkit-text-size-adjust: 100%; }
 .playout { overflow: hidden; min-width: 1000px }
 .responsive .playout { min-width: inherit }
@@ -1061,7 +1061,7 @@ body { min-width: 320px; padding: 0; margin: 0; color: #322C20; font: 13px/1.5 A
  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
 #header { width: 100%; position: relative; display: inline-block; padding-bottom: 10px; }
-#navbar { background: url(https://file.minhchinh.com/template/images/button.png) left -40px repeat-x; margin-bottom: 10px; border-left: 0; border-right: 0; max-width: 990px; border-radius: 5px; margin: 0 auto; padding: 0 5px; margin-bottom: 10px }
+#navbar { background: url(cdn/template/images/button.png) left -40px repeat-x; margin-bottom: 10px; border-left: 0; border-right: 0; max-width: 990px; border-radius: 5px; margin: 0 auto; padding: 0 5px; margin-bottom: 10px }
 #breadcrumb { width: 100%; }
 #slide { width: 100%; }
 #main { clear: both; }
@@ -1101,7 +1101,7 @@ body { min-width: 320px; padding: 0; margin: 0; color: #322C20; font: 13px/1.5 A
 .formdoveso .row { width: 50%; float: left; }
 .formdoveso .row .col { width: 50%; float: left; }
 .formdoveso .row .col .item { margin: 0 5px; }
-.icon.livescore { background: url('/images/soccer_ball.gif') right center no-repeat; background-size: 17px }
+.icon.livescore { background: url('cdn/images/soccer_ball.gif') right center no-repeat; background-size: 17px }
 #box_12congiap { width: 300px; }
 .box_12congiap h4 { font-family: Arial, Helvetica, sans-serif; font-size: 23px; color: #ffffff; letter-spacing: -1px; margin-bottom: 10px; }
 .box_12congiap h4 small { color: #e3e9ec; font-weight: normal; font-size: 9px; font-family: Verdana, Arial, Helvetica, sans-serif; text-transform: uppercase; position: relative; top: -4px; left: 6px; letter-spacing: 0px; }
@@ -1120,7 +1120,7 @@ body { min-width: 320px; padding: 0; margin: 0; color: #322C20; font: 13px/1.5 A
 .box_12congiap .content ul li a small { color: #8b959c; font-size: 9px; text-transform: uppercase; font-family: Verdana, Arial, Helvetica, sans-serif; position: relative; left: 4px; top: 0px; }
 .box_12congiap .content ul li a:hover { color: #a59c83; }
 .box_12congiap .content ul li a:hover small { color: #baae8e; }
-span.conso100 { background-image: url(https://file.minhchinh.com/template/images/100conso.png); text-indent: -999px; background-repeat: no-repeat; height: 30px; width: 30px; display: inline-block; border: 0; vertical-align: middle; position: static; text-align: center; color: #000; font: 700 16px/30px "Times New Roman", Times, serif; }
+span.conso100 { background-image: url(cdn/template/images/100conso.png); text-indent: -999px; background-repeat: no-repeat; height: 30px; width: 30px; display: inline-block; border: 0; vertical-align: middle; position: static; text-align: center; color: #000; font: 700 16px/30px "Times New Roman", Times, serif; }
 .title_100conso { text-align: center; font-weight: bold; color: rgb(255, 255, 255); width: 80%; font-size: 16px; padding-top: 7px; float: left; }
 .icon_100conso { width: 20%; float: left; text-align: center; }
 .conso100.giaima { height: 30px; background-position: -102px -318px; text-indent: -999px; overflow: hidden; }
@@ -1173,11 +1173,11 @@ span.conso100 { background-image: url(https://file.minhchinh.com/template/images
 .divsearch { display: inline-block; padding: 10px }
 .divsearch_top { display: inline-block; padding: 10px 10px 0 10px }
 .title_map { line-height: 30px }
-.image-placeholder { position: relative; overflow: hidden; width: 160px; height: 48px; padding: 0px; font-size: 12px; line-height: 13px; color: #fff; text-align: center; vertical-align: middle; cursor: pointer; background:  url(https://file.minhchinh.com/images/upload.png) no-repeat; }
+.image-placeholder { position: relative; overflow: hidden; width: 160px; height: 48px; padding: 0px; font-size: 12px; line-height: 13px; color: #fff; text-align: center; vertical-align: middle; cursor: pointer; background:  url(cdn/images/upload.png) no-repeat; }
 .image-placeholder input[type="file"] { position: absolute; top: 0; right: 0; float: left; opacity: 0; margin: 0; border-style: solid; border-color: transparent; border-width: 0; cursor: pointer; width: auto; height: 133px; z-index: 100; }
-div#crosshair { position: absolute; top: 242px; height: 19px; width: 19px; left: 50%; margin-left: -8px; display: block; background:  url(https://file.minhchinh.com/images/crosshair.gif); background-position: center center; background-repeat: no-repeat; }
+div#crosshair { position: absolute; top: 242px; height: 19px; width: 19px; left: 50%; margin-left: -8px; display: block; background:  url(cdn/images/crosshair.gif); background-position: center center; background-repeat: no-repeat; }
 div#map { position: relative; margin: 15px; }
-#navibarfull { background: url(https://file.minhchinh.com/template/images/button.png) left -40px repeat-x; margin-bottom: 10px; border-left: 0; border-right: 0; width: 100%; margin: 0 auto; padding: 0 5px; margin-bottom: 10px; }
+#navibarfull { background: url(cdn/template/images/button.png) left -40px repeat-x; margin-bottom: 10px; border-left: 0; border-right: 0; width: 100%; margin: 0 auto; padding: 0 5px; margin-bottom: 10px; }
 .boxSearchMap { text-align: center; width: 100% }
 .content_map .dlvsName { font-size: 16px; font-weight: bold; color: #F00 }
 .content_map .dlvsPhone { font-size: 14px; font-weight: bold }
@@ -1329,19 +1329,19 @@ div#map { position: relative; margin: 15px; }
 .responsive .w80pt { width: 100% }
 .responsive .boxFoter { width: 100% }
 .responsive #responsive-tab { width: 50px; height: 50px; float: right; display: block; position: absolute; top: 0px; right: 5px; }
-.responsive #responsive-tab a { border-radius: 5px; background: url(https://file.minhchinh.com/template/images/menu.png) 7px 18px no-repeat #E47A13; background-size: 27px; width: 41px; height: 41px; display: block; text-align: center; font-weight: bold; font-size: 12px; margin-top: 5px; color: #FFF; }
+.responsive #responsive-tab a { border-radius: 5px; background: url(cdn/template/images/menu.png) 7px 18px no-repeat #E47A13; background-size: 27px; width: 41px; height: 41px; display: block; text-align: center; font-weight: bold; font-size: 12px; margin-top: 5px; color: #FFF; }
 .responsive #responsive-tab a.clicked { background-color: #d80041; }
 .responsive #header { background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #F2F2F2) ); background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F2F2F2 100%); background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F2F2F2 100%); background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F2F2F2 100%); background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F2F2F2 100%); background-image: linear-gradient(to bottom, #FFFFFF 0%, #F2F2F2 100%); padding-bottom: 0; }
 .responsive div.logo { float: none; width: 320px; margin: 5px auto 0px 10px; }
 .responsive div.logo img { height: 45px !important }
-.responsive a.logo { background: url(https://file.minhchinh.com/template/images/logo.png) left center no-repeat; width: 150px; height: 50px; display: block; background-size: 150px; margin: 10px 0; }
+.responsive a.logo { background: url(cdn/template/images/logo.png) left center no-repeat; width: 150px; height: 50px; display: block; background-size: 150px; margin: 10px 0; }
 .responsive .mobilemenushow { display: block !important }
 .responsive .mobile_hide { display: none }
 .responsive .max799hide { display: none }
 .responsive #navbar { background: #C30000; padding: 0 }
 #menu_cleander { width: 300px; display: table; margin: 10px auto }
 .responsive div.header_ext { float: none; margin: 15px 0 0 }
-.responsive .formdoveso { width: 100%; padding: 1px 0; border-radius: 0px; border: 1px solid #F90; background: url(https://file.minhchinh.com/template/images/button.png) left -245px; float: right }
+.responsive .formdoveso { width: 100%; padding: 1px 0; border-radius: 0px; border: 1px solid #F90; background: url(cdn/template/images/button.png) left -245px; float: right }
 .responsive .formdoveso .row { width: 50%; float: left; margin: 5px 0; display: inline-block }
 .responsive .formdoveso .row .col { width: 50%; float: left; }
 .responsive .formdoveso .row .col .item { margin: 0 8px; }
