@@ -1,0 +1,112 @@
+#navbar3 {
+  background: linear-gradient(to bottom, #6b4c2a, #4a3520);
+  border-bottom: 2px solid #a44900;
+}
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  display: block;
+  padding: 8px 12px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.nav-link:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.nav-link .fa {
+  margin-right: 3px;
+}
+
+.nav-keno {
+  color: #FF0;
+}
+
+/* Dropdown */
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+  min-width: 180px;
+  z-index: 1000;
+}
+
+.nav-item:hover > .dropdown {
+  display: block;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 5px 15px;
+  color: #333;
+  text-decoration: none;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.dropdown li a:hover,
+.dropdown li a.active {
+  background: #ffbf39;
+  color: #000;
+}
+
+/* Wide dropdown with groups */
+.dropdown-wide {
+  display: none;
+  min-width: 400px;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.nav-item:hover > .dropdown-wide {
+  display: flex;
+}
+
+.dropdown-group {
+  flex: 1;
+  min-width: 120px;
+}
+
+.group-title {
+  display: block;
+  font-weight: bold;
+  color: #a44900;
+  font-size: 12px;
+  padding: 3px 0;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 3px;
+}
+
+.dropdown-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-group ul li a {
+  padding: 3px 5px;
+  font-size: 11px;
+}
