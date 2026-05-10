@@ -1,5 +1,5 @@
-import { useState, useMemo } from 'react';
-import { mockKenoData } from '../../data/mockKenoData';
+import { useState, useEffect, useMemo, useCallback } from 'react';
+import { fetchDraws, fetchDrawRangeOptions } from '../../api/drawsApi';
 import SearchForm from './SearchForm';
 import ResultRow from './ResultRow';
 import Pagination from './Pagination';
@@ -7,19 +7,61 @@ import '../../styles/keno.css';
 
 const PER_PAGE = 20;
 
+const EMPTY_FILTERS = { date: '', ky: '', boSo: '', tuKy: '', denKy: '' };
+
+function buildApiParams(applied, page) {
+  const params = { page, pageSize: PER_PAGE };
+  if (applied.date) params.date = applied.date;
+  if (applied.ky && applied.ky.trim() && applied.ky.trim() !== '0') {
+    params.drawNumbers = applied.ky.trim();
+  }
+  if (applied.tuKy) params.fromDraw = applied.tuKy;
+  if (applied.denKy) params.toDraw = applied.denKy;
+  return params;
+}
+
 export default function KenoResults() {
   const [currentPage, setCurrentPage] = useState(1);
-  const [filters, setFilters] = useState({ date: '', ky: '', boSo: '', tuKy: '', denKy: '' });
-  const [appliedFilters, setAppliedFilters] = useState({ date: '', ky: '', boSo: '', tuKy: '', denKy: '' });
+  const [filters, setFilters] = useState(EMPTY_FILTERS);
+  const [appliedFilters, setAppliedFilters] = useState(EMPTY_FILTERS);
+  const [drawOptions, setDrawOptions] = useState([]);
+  const [draws, setDraws] = useState([]);
+  const [totalPages, setTotalPages] = useState(1);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
-  const drawOptions = useMemo(() => {
-    return mockKenoData.map(d => d.id).sort((a, b) => b - a);
+  useEffect(() => {
+    let cancelled = false;
+    fetchDrawRangeOptions()
+      .then((res) => { if (!cancelled) setDrawOptions(res.data); })
+      .catch((err) => { if (!cancelled) console.error('Failed to load draw options:', err); });
+    return () => { cancelled = true; };
   }, []);
+
+  const loadDraws = useCallback(async (applied, page) => {
+    setLoading(true);
+    setError(null);
+    try {
+      const res = await fetchDraws(buildApiParams(applied, page));
+      setDraws(res.data);
+      setTotalPages(Math.max(1, res.pagination.totalPages));
+    } catch (err) {
+      setError(err.message || 'Không thể tải dữ liệu');
+      setDraws([]);
+      setTotalPages(1);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    loadDraws(appliedFilters, currentPage);
+  }, [appliedFilters, currentPage, loadDraws]);
 
   const matchedNumbers = useMemo(() => {
     const nums = new Set();
     if (appliedFilters.boSo.trim()) {
-      appliedFilters.boSo.split(',').forEach(s => {
+      appliedFilters.boSo.split(',').forEach((s) => {
         const n = parseInt(s.trim(), 10);
         if (n >= 1 && n <= 80) nums.add(n);
       });
@@ -27,50 +69,18 @@ export default function KenoResults() {
     return nums;
   }, [appliedFilters.boSo]);
 
-  const filteredData = useMemo(() => {
-    let data = mockKenoData;
-
-    if (appliedFilters.date) {
-      const parts = appliedFilters.date.split('-');
-      const filterDate = `${parts[2]}/${parts[1]}/${parts[0]}`;
-      data = data.filter(d => d.date === filterDate);
-    }
-
-    if (appliedFilters.ky && appliedFilters.ky !== '0') {
-      const kyValues = appliedFilters.ky.split(';').map(s => s.trim()).filter(Boolean);
-      if (kyValues.length > 0) {
-        data = data.filter(d => kyValues.includes(String(d.id)));
-      }
-    }
-
-    if (appliedFilters.tuKy) {
-      const from = parseInt(appliedFilters.tuKy, 10);
-      data = data.filter(d => d.id >= from);
-    }
-
-    if (appliedFilters.denKy) {
-      const to = parseInt(appliedFilters.denKy, 10);
-      data = data.filter(d => d.id <= to);
-    }
-
-    return data;
-  }, [appliedFilters]);
-
-  const totalPages = Math.ceil(filteredData.length / PER_PAGE);
-  const pageData = filteredData.slice((currentPage - 1) * PER_PAGE, currentPage * PER_PAGE);
-
   const handleSearch = () => {
-    let correctedFilters = { ...filters };
-    if (correctedFilters.tuKy && correctedFilters.denKy) {
-      const from = parseInt(correctedFilters.tuKy, 10);
-      const to = parseInt(correctedFilters.denKy, 10);
+    let corrected = { ...filters };
+    if (corrected.tuKy && corrected.denKy) {
+      const from = parseInt(corrected.tuKy, 10);
+      const to = parseInt(corrected.denKy, 10);
       if (from > to) {
-        correctedFilters.tuKy = String(to);
-        correctedFilters.denKy = String(from);
-        setFilters(correctedFilters);
+        corrected.tuKy = String(to);
+        corrected.denKy = String(from);
+        setFilters(corrected);
       }
     }
-    setAppliedFilters(correctedFilters);
+    setAppliedFilters(corrected);
     setCurrentPage(1);
   };
 
@@ -91,7 +101,9 @@ export default function KenoResults() {
 
       <div className="keno-table">
         <div className="keno-results">
-          {pageData.map((draw, idx) => (
+          {loading && <div className="keno-empty">Đang tải...</div>}
+          {!loading && error && <div className="keno-empty">{error}</div>}
+          {!loading && !error && draws.map((draw, idx) => (
             <ResultRow
               key={draw.id}
               draw={draw}
@@ -99,7 +111,7 @@ export default function KenoResults() {
               matchedNumbers={matchedNumbers}
             />
           ))}
-          {pageData.length === 0 && (
+          {!loading && !error && draws.length === 0 && (
             <div className="keno-empty">Không có kết quả phù hợp.</div>
           )}
         </div>
